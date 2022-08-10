@@ -1,22 +1,15 @@
-.row{
-    flex-direction: row;
-    flex: auto;
-    display: flex;
-    padding: 5px;
-    align-content: center;
-}
 .title{
     font-family: "Source Code Pro", serif;
     justify-content: center;
     align-content: center;
     align-self: center;
-    color: #3185E7;
+    color: #205089;
     margin-left: 10px;
     font-size: xxx-large;
     font-weight: bold;
 }
 .line{
-    background-color: #3185E7;
+    background-color: #205089;
     height: 3px;
     width: auto;
     margin-left: 5px;

@@ -1,0 +1,15 @@
+.icon{
+    color: white;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.footer-text{
+    color: white;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-self: center;
+}
