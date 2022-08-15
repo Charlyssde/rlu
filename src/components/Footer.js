@@ -21,10 +21,18 @@ export const Footer = () => {
             </div>
 
             <div className={'row'} style={{justifyContent:'center'}}>
-                <FontAwesomeIcon icon={faFacebook} className={'icon'}/>
-                <FontAwesomeIcon icon={faInstagram} className={'icon'}/>
-                <FontAwesomeIcon icon={faTwitter} className={'icon'}/>
-                <FontAwesomeIcon icon={faWhatsapp} className={'icon'}/>
+                <a target={'_blank'} href={'https://www.facebook.com/Richmond-Latinos-United-105748575579379'} >
+                    <FontAwesomeIcon icon={faFacebook} className={'icon'}/>
+                </a>
+                <a target={'_blank'} href={'https://www.instagram.com/richmond_latinos_united/'}>
+                    <FontAwesomeIcon icon={faInstagram} className={'icon'}/>
+                </a>
+                <a target={'_blank'} href={'https://twitter.com/united_richmond'}>
+                    <FontAwesomeIcon icon={faTwitter} className={'icon'}/>
+                </a>
+                <a target={'_blank'} href={'wa.me/+18049339368'}>
+                    <FontAwesomeIcon icon={faWhatsapp} className={'icon'}/>
+                </a>
             </div>
 
         </div>

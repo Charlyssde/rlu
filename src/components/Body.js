@@ -37,25 +37,81 @@ export const Body = () => {
                     </Carousel>
                 </div>
             </div>
-            <div className={'row, text'} style={{marginBottom:'15px', marginTop:'15px'}}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut dictum enim. Fusce dignissim at lectus eu congue. Etiam consequat a magna vitae viverra. Nullam pretium nisl quis facilisis dignissim. Sed efficitur porta mi in ornare. Nunc porta tortor eu ipsum aliquam blandit. Donec vestibulum blandit risus at eleifend. In hac habitasse platea dictumst. Cras tempor neque in sollicitudin rhoncus.
+            <div className={'row, text'} style={{marginBottom:'15px', marginTop:'15px', fontSize:'x-large', fontWeight:'bold'}}>
+                Richmond Latinos United es una organización sin fines de lucro, comprometida con
+                los valores deportivos bien fundados en la niñez, apoyado de padres y adultos dispuestos
+                a compartir su tiempo, espacio y conocimiento en la instrucción del fútbol.
+                <ul>
+                    Honestidad
+                </ul>
+                <ul>
+                    Dedicación
+                </ul>
+                <ul>
+                    Compromiso
+                </ul>
+                <ul>
+                    Humildad
+                </ul>
+                <ul>
+                    Disciplina
+                </ul>
+                <ul>
+                    Compañerismo
+                </ul>
+                Son parte de nuestros cimientos, lo que en primer plano se les
+                instruye a los niños, contando con más de 150 niños (actualmente)
+                y 480 niños en total desde nuestro primer entrenamiento.
+                Nuestro principal objetivo es formar jugadores responsables y respetuosos dentro de cualquier competencia.
+
+                Nuestras categorías, todas dentro de las reglas requeridas para participar en las competencias:
+                <ul>
+                    U6
+                </ul>
+                <ul>
+                    U8
+                </ul>
+                <ul>
+                    U10
+                </ul>
+                <ul>
+                    U12
+                </ul>
+                <ul>
+                    U14
+                </ul>
+                <ul>
+                    U16
+                </ul>
+                <div style={{padding:'10px', borderRadius:'12px',textAlign:'center',display:'flex', justifyContent:'center', backgroundColor:'#205089'}}>
+                    <div style={{width:'50%', fontStyle:'italic', color:'white'}}>
+                        AQUEL QUE PORTE UN UNIFORME DE NUESTRA ORGANIZACIÓN LO HARÁ DE MANERA REPONSABLE, CON HONOR
+                        Y RESPETO AL DEPORTE, AL CAMPO Y A CUALQUIER RIVAL.
+                    </div>
+                </div>
             </div>
-            <div className={'row, text'} style={{fontWeight:'bold'}}>
+
+            <div className={'row, text'} style={{fontWeight:'bolder', marginTop:'35px', textAlign:'center'}}>
                 Las direcciones y horarios de nuestros entrenamientos son los siguientes:
             </div>
             <br/>
-            <div className={'row, text'} style={{fontWeight:'bold'}}>
-                10301 Hungary Spring Rd, Glen Allen, VA 23060
-            </div>
-            <div className={'row, text'} style={{fontWeight:'bold'}}>
-                LUN - VIER 16:00 - 18:00 hrs.
-            </div>
-            <br/>
-            <div className={'row, text'} style={{fontWeight:'bold'}}>
-                11217 Greenwood Rd, Glen Allen, VA 23059
-            </div>
-            <div className={'row, text'} style={{fontWeight:'bold'}}>
-                LUN - VIER 11:00 - 15:00 hrs.
+            <div className={'row'}>
+                <div className={'column'} style={{width:'50%', textAlign:'center'}}>
+                    <div className={'row, text'} style={{fontWeight:'bolder'}}>
+                        10301 Hungary Spring Rd, Glen Allen, VA 23060
+                    </div>
+                    <div className={'row, text'} style={{fontWeight:'bolder'}}>
+                        LUN - VIER 16:00 - 18:00 hrs.
+                    </div>
+                </div>
+                <div className={'column'} style={{width:'50%', textAlign:'center'}}>
+                    <div className={'row, text'} style={{fontWeight:'bolder'}}>
+                        11217 Greenwood Rd, Glen Allen, VA 23059
+                    </div>
+                    <div className={'row, text'} style={{fontWeight:'bolder'}}>
+                        LUN - VIER 11:00 - 15:00 hrs.
+                    </div>
+                </div>
             </div>
         </div>
     )
